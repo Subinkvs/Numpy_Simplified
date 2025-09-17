@@ -93,7 +93,11 @@ result = np.array(nested_lst)
 result = result * 5
 print(result)
 
+lst = [[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]]
+print(lst[1][0][1])
 
+new_lst = [[1, 2, 3], [2, 4, 5]]
+print(new_lst[0][2])
 
 
 
