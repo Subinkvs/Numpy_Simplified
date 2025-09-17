@@ -34,6 +34,19 @@ print("Type of np module:", type(np))
 #    - Promotes loose coupling and code flexibility.
 
 '''
-Calculate the square of each number of a list using numpy ?
+Calculate the sum of the list with itself ? -> using list and numpy
 '''
 
+
+
+
+'''
+Calculate the square of each number of a list ?
+'''
+
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+arr = arr * 2
+print(arr)
