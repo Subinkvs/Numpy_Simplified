@@ -38,4 +38,13 @@ print(arr[1, 1, 0])
 
 # print the number 50 from the array.?
 arr = np.array([[10, 20, 30, 40], [50, 60, 70, 80]])
+import numpy as np
 
+A = np.array([[1, 2],
+              [3, 4]])
+
+B = np.array([[5, 6],
+              [7, 8]])
+
+C = np.dot(A, B)
+print(C)
