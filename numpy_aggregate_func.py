@@ -59,5 +59,6 @@ print(array.size)
 # 9. How to create a random array
 
 rand_array = np.random.randint(1, 101, size=15) 
+print(rand_array)
 
 

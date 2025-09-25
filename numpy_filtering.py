@@ -11,6 +11,10 @@ array = np.array([[50, 60, 40, 89, 90],
 # 1️⃣ Basic filtering: Select all elements greater than 40
 # --------------------------------------------
 # Condition: (array > 40)
+
+
+
+
 # → This returns a 1D array of all elements where the condition is True.
 marks = array[array > 40]
 print("All marks > 40:", marks)  
