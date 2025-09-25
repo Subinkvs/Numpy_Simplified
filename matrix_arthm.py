@@ -70,17 +70,6 @@ print(A@B)
 print(A.dot(B))
 
 
-
-
-
-
-
-
-
-
-
-
-
 X = np.array([[170, 65, 20]])  # 1x3 (inputs)
 W = np.array([
     [0.2, 0.4],
