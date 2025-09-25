@@ -48,3 +48,16 @@ print("Column-wise sum:", np.sum(array, axis=0))
 # 👉 axis=1 means perform the operation horizontally (row-wise)
 #    It will add elements in the same row.
 print("Row-wise sum:", np.sum(array, axis=1))
+
+
+# 7. Product of all elements
+print("Product of all elements:", np.prod(array))
+
+# 8. Count of an array
+print(array.size)
+
+# 9. How to create a random array
+
+rand_array = np.random.randint(1, 101, size=15) 
+
+
