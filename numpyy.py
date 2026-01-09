@@ -25,13 +25,7 @@ print(lst)
    Dimensions = the number of index levels needed to reach a single element.
 '''
 
-my_list = [[
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-
-]
-]
+my_list = [[[1, 2, 3],[4, 5, 6],[7, 8, 9]] ]
 print(my_list)
 print(my_list[0][1][1]) # indexing
 
