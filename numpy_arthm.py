@@ -49,6 +49,7 @@ print(A * B)
 scores = np.array([30, 60, 70, 87, 90, 89, 76])
 print(scores == 90) # Boolean operation
 print(scores > 70)
+
 scores[ scores < 60 ] = 0
 print(scores)
 
